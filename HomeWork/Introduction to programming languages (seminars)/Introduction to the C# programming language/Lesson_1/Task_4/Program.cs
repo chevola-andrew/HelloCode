@@ -18,8 +18,9 @@ int max = n1;
 
 if (n1 == n2 && n1 == n3) Console.Write("Введенные числа равны.");
    
-if (n2 > max) max = n2;
-
-if (n3 > max) max = n3;
-    
-Console.Write("Максимальное число: " + max);
+else
+    {
+    if (n2 > max) max = n2;
+    if (n3 > max) max = n3; 
+    Console.Write("Максимальное число: " + max);
+    }
