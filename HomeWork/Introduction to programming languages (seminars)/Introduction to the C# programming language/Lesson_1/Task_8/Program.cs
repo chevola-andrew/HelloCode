@@ -9,4 +9,4 @@ int n = Convert.ToInt32(Console.ReadLine());
 
 if ( n == 0 || n == 1 ) Console.Write( "В ряду нет чётных чисел." );
 
-for ( int i = 2; i <= n; i = i + 2 ) Console.Write( i + ", " );
+for ( int i = 2; i <= n; i += 2 ) Console.Write( i + ", " );
